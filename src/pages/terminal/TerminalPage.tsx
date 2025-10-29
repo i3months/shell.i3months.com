@@ -75,7 +75,12 @@ export const TerminalPage: React.FC = () => {
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
     >
-      <Shell />
+      <div
+        onMouseDown={(e) => e.stopPropagation()}
+        style={{ display: "contents" }}
+      >
+        <Shell />
+      </div>
       {selectionBox && (
         <div
           className={`selection-box ${isSelecting ? "active" : "fading"}`}
