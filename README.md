@@ -1,4 +1,4 @@
-# 🧠 13months-web-shell
+# i3months-web-shell
 
 > An interactive web-based terminal portfolio with Linux-style commands
 
