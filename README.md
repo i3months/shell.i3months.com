@@ -43,7 +43,3 @@ export const customCommands = [
   },
 ];
 ```
-
-## 🏗 Tech Stack
-
-React 18 • TypeScript • Vite • TailwindCSS • React Router
